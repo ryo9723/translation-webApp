@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translation</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="textArea">
+            <textarea class="fromText" placeholder="入力してください"></textarea>
+            <textarea class="toText" placeholder="こちらに表示されます"></textarea>
+        </div>
+        <ul class="options">
+            <li>
+                <div class="icons">
+                    <img src="./images/audio.png" alt="" id="fromAudio" />
+                    <img src="./images/copy.png" alt="" id="fromCopy" />
+                </div>
+                <select class="fromLang">
+                    <option value="ja-JP">日本語</option>
+                    <option value="en-US">英語</option>
+                </select>
+            </li>
+            <li>
+                <div class="icons">
+                    <img src="./images/audio.png" alt="" id="toAudio" />
+                    <img src="./images/copy.png" alt="" id="toCopy" />
+                </div>
+                <select class="toLang">
+                    <option value="en-US">英語</option>
+                    <option value="ja-JP">日本語</option>
+                </select>
+            </li>
+        </ul>
+        <button class="btn">翻訳する</button>
+    </div>
+<script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
